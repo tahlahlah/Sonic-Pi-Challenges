@@ -20,6 +20,14 @@ live_loop :krash do
   sleep 0.25
 end
 
+live_loop :dunce do
+  play :a5, sustain: 1
+  play :cs5, sustain: 1
+  play :e6, sustain: 1
+  play :a6, sustain: 1
+  sleep 4
+end
+
 live_loop :lame do
   sample :drum_bass_soft
   sample :drum_cymbal_closed, amp: 0.5
